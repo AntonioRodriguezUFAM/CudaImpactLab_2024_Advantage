@@ -21,10 +21,10 @@
     <CudaCompile Include="Cuda_08_Asynchronous Operations.cu" />
     <CudaCompile Include="Cuda_09_Matrix Multiplication Optimization with Shared Memory.cu" />
     <CudaCompile Include="kernel.cu" />
-    <CudaCompile Include="x64\Cuda_01A_2Dand3DThreadGrids.cu" />
-    <CudaCompile Include="x64\Cuda_01A_SpecialCUDAVariablesforGridandBlockIndexing.cu" />
-    <CudaCompile Include="x64\Cuda_01B_Image Convolution Using CUDA.cu" />
-    <CudaCompile Include="x64\Cuda_01C_Launching Kernels with Custom Thread and Block Dimensions.cu" />
+    <CudaCompile Include="Cuda_01A_2Dand3DThreadGrids.cu" />
+    <CudaCompile Include="Cuda_01A_SpecialCUDAVariablesforGridandBlockIndexing.cu" />
+    <CudaCompile Include="Cuda_01B_Image Convolution Using CUDA.cu" />
+    <CudaCompile Include="Cuda_01C_Launching Kernels with Custom Thread and Block Dimensions.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7360FE94-6C90-4831-B34E-55DE9FEDF61A}</ProjectGuid>
