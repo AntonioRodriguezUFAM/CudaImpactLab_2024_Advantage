@@ -50,6 +50,7 @@ int main() {
     // Launch kernel with 2D grid and block dimensions
     dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);
     dim3 dimGrid((N + dimBlock.x - 1) / dimBlock.x, (N + dimBlock.y - 1) / dimBlock.y);
+    
     matrixMul<<<dimGrid, dimBlock>>>(d_A, d_B, d_C, N);
 
     // Copy result back to host

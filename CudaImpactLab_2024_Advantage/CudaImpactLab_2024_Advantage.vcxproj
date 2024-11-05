@@ -25,6 +25,12 @@
     <CudaCompile Include="Cuda_01A_SpecialCUDAVariablesforGridandBlockIndexing.cu" />
     <CudaCompile Include="Cuda_01B_Image Convolution Using CUDA.cu" />
     <CudaCompile Include="Cuda_01C_Launching Kernels with Custom Thread and Block Dimensions.cu" />
+    <CudaCompile Include="Cuda_01D_ImageLoadProcessandSaveUsingSTB.cu" />
+    <CudaCompile Include="Cuda_01E_ImageConvolutionUsingSTBLibrary.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stb_image.h" />
+    <ClInclude Include="include\stb_image_write.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7360FE94-6C90-4831-B34E-55DE9FEDF61A}</ProjectGuid>
