@@ -30,8 +30,8 @@ int main() {
     int width, height, channels;
 
     // Load the images using stb_image (grayscale)
-    unsigned char* imgA = stbi_load("imageA.jpg", &width, &height, &channels, 1);
-    unsigned char* imgB = stbi_load("imageB.jpg", &width, &height, &channels, 1);
+    unsigned char* imgA = stbi_load("images/apple.jpg", &width, &height, &channels, 1);
+    unsigned char* imgB = stbi_load("images/ship_4k_rgba.png", &width, &height, &channels, 1);
 
     if (!imgA || !imgB) {
         printf("Error: Could not load images.\n");
@@ -75,7 +75,7 @@ int main() {
     }
 
     // Save the result using stb_image_write
-    stbi_write_jpg("result_image.jpg", width, height, 1, result_img, 100);
+    stbi_write_jpg("images/result_image.jpg", width, height, 1, result_img, 100);
 
     // Cleanup
     stbi_image_free(imgA);
